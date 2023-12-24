@@ -4,10 +4,10 @@ import searchIcon from '../assets/images/icon-search.svg'
 
 const SearchBar = () => {
   return (
-    <div className='bg-white flex justify-between items-center px-3 py-2 shadow rounded-md'>
+    <div className='bg-white dark:bg-[#1E2A47] dark:text-white flex justify-between items-center px-3 py-2 shadow rounded-md'>
       <div className='flex gap-2'>
         <img src={searchIcon} alt="Search icon" className='w-6 h-6' />
-        <input className='border-0 outline-none placeholder:text-gray-200 placeholder:text-xs' type="text" placeholder='Search Github username....' />
+        <input className='border-0 outline-none placeholder:text-gray-200  placeholder:text-xs bg-transparent' type="text" placeholder='Search Github username....' />
       </div>
       <div>
         <span></span>
