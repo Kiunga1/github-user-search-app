@@ -29,7 +29,8 @@ const App = () => {
     } catch (err) {
   //Handle error
   console.log(err)
-  setError('No results',MediaError)
+  setError(new Error('No results'));
+
     }
   };
 
